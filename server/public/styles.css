@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(31, 28, 28);
+}
+
+button {
+  padding: 8px;
+  margin: 3px;
+  font-size: large;
+  border: #00c8f7 3px solid;
+  border-radius: 8px;
+  background-color: rgb(39, 35, 35);
+  color: #00c8f7;
+  cursor: pointer;
+}

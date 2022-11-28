@@ -7,7 +7,7 @@ function Home () {
 
   return (
     <>
-       <Link to="object-scroller">Cool Object Opening Thing</Link>
+       <Link style={{color: 'white', fontSize: 'large'}} to="object-scroller">Cool Object Opening Thing</Link>
     </>
   )
 }

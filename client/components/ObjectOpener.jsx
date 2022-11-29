@@ -34,7 +34,7 @@ function Entry ({pokemon, depth}) {
           </div>
         )}
       {isExpanded && 
-        <div style={{paddingLeft: `${depth * 20}px`}}>
+        <div style={{paddingLeft: `${depth * 10}px`}}>
           {pokemon.evolutions?.map((pokemon, index) => {
             return <Entry key={index} pokemon={pokemon} depth={depth + 1}/>
           })}
@@ -58,7 +58,23 @@ function ObjectOpener () {
               pokemon: "Charmeleon"
             },
             {
-              pokemon: "Charmeleon"
+              pokemon: "Charmeleon",
+              evolutions: [
+                {
+                  pokemon: "Charizard",
+                  evolutions: [
+                    {
+                      pokemon: "Charizard"
+                    },
+                  ]
+                },
+                {
+                  pokemon: "Charizard"
+                },
+                {
+                  pokemon: "Charizard"
+                },
+              ]
             },
             {
               pokemon: "Charmeleon"

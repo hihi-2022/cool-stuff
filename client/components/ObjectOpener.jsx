@@ -15,7 +15,7 @@ function Entry ({pokemon, depth}) {
         + {pokemon.pokemon}
       </button>  
       ) : (
-        <button style={{border: "red 3px solid"}} onClick={() => setIsExpanded(!isExpanded)}>
+        <button style={{color: 'red', border: "red 3px solid"}} onClick={() => setIsExpanded(!isExpanded)}>
         - {pokemon.pokemon}
       </button>  
       )
